@@ -21,10 +21,13 @@ The nonprofit foundation Alphabet Soup wanted a tool to help in selection of app
 ###Compiling, Training, and Evaluating the Model###
 
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+** Initial model I chose 80/30 and then tested with 90/40. I selected these values based on experience in practice activities and their relative performance. I selected two layers since the data, once cleaned, did not appear to be overly complex. I used the 'relu' function since there was a nonzero threshold and the sigmoid function since many of the variable values were zero or 1 (yes/no)
+
 * Were you able to achieve the target model performance?
+** No I was not.
+
 * What steps did you take in your attempts to increase model performance?
+** I attempted to drop several seemingly unuseful columns; I adjusted the number of neurons, and finally the number of epochs. Decreasing the number of epochs had the greatest impact. 
 
 ##Summary:## 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
-
 Overall, I am not confident we have successfully trained the model to have a high accuracy for the predictions. I recommend the working with Alphabet Soup to better define criteria for success and quantify those measurements. 
